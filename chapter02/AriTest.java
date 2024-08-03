@@ -1,0 +1,7 @@
+class AriTest{
+	public static void main(String[] args) {
+		short s1 = 10;
+		++s1;
+		System.out.println(s1);
+	}
+}

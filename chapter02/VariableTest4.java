@@ -1,0 +1,26 @@
+class VariableTest4 {
+	public static void main(String[] args) {
+		double d1=12;
+		int i1=(int)d1;
+		System.out.println(i1);
+
+		int i3=12;
+		float f1=i3;
+		System.out.println(f1);
+
+		double d2=12.9;
+		int i4=(int)d2;
+		System.out.println(i4);
+
+		byte b2=12;
+		method(b2);
+		//System.out.println(b2);
+		
+		long l2=12L;
+		method((int)l2);
+	}
+
+	public static void method(int num){
+		System.out.println("num=" + num);
+	}
+}

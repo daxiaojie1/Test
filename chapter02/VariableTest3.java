@@ -1,0 +1,36 @@
+class VariableTest3 {
+	public static void main(String[] args) {
+		int i1=10;
+
+		int i2=i1;
+		long l1=i1;
+
+		float f1=l1;
+
+		byte b1=12;
+		int i3=b1+i1;
+
+		//byte b2=b1+i1;
+
+		byte b3=5;
+		short s8=9;
+		//short s9=b3+s8;
+
+		byte b8=9;
+		//byte b5=b8+b3;
+
+		char c1='a';
+		//char c2=c1+b3;
+		int i8=c1+b3;
+
+		long l2=123L;
+		long l3=120;
+
+		float f2=12.3f;
+		float f3=12.3;
+
+		int 123L=12;
+		long l6=123L;
+		System.out.println("Hello World!");
+	}
+}
