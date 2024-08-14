@@ -1,0 +1,5 @@
+a = input().split()
+b =input().split()
+x = float(a[0]) - float(b[0])
+y = float(a[1]) - float(b[1])
+print(f"{(x ** 2 + y ** 2) ** 0.5:.3f}")
