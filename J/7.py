@@ -1,0 +1,5 @@
+n = int(input())
+vector_a = list(map(int, input().split()))
+vector_b = list(map(int, input().split()))
+dot_product = sum(a * b for a, b in zip(vector_a, vector_b))
+print(dot_product)
